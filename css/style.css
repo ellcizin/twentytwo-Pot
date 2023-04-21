@@ -1,0 +1,137 @@
+
+body{
+  font-family: "Raleway", sans-serif;
+}
+nav{
+  position: relative;
+}
+.nav-link{
+  font-weight: 600;
+}
+.nav-link:hover{
+  color: #146c43 !important;
+  transition: all .2s;
+}
+.navbar-brand{
+  font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link.active{
+  color: #146c43;
+}
+
+.navbar-brand:hover{
+  color: #000;
+}
+.btn-color{
+  font-weight: 600;
+}
+.btn-color:hover{
+  background: #000;
+  transition: all .3s;
+  border-color: #000;
+}
+.blog{
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  top: calc(100% + 30px);
+  transition: all .3s;
+  transition-delay: .06s;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  padding: 10px;
+}
+.blog a{
+  font-weight: normal;
+}
+li:hover .blog{
+  visibility: visible;
+  opacity: 1;
+  top: 87%;
+}
+.bg-img{
+  background: url(../Picture/peo.png
+  );
+  height: 100vh;
+  background-size: cover;
+  background-position: center top;
+}
+.overlay{
+  height: 100vh;
+  background: rgba(0, 0, 0,0.6);
+}
+#home h1{
+  margin-top: 160px;
+}
+#home p{
+  font-weight: 600;
+}
+#home .bg-none:hover{
+  background: none;
+  border-color: #fff;
+}
+#about{
+  transform: skewY(-3deg);
+  padding: 120px 0;
+}
+.tempor{
+  transform: skewY(3deg);
+}
+#services{
+  padding: 120px 0;
+}
+.sad{
+  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
+}
+.dd{
+  width: 60px;
+  height:60px;
+  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.07);
+  margin-top: -80px;
+  background: #fff;
+}
+#services .nav-link.active{
+  background-color: #146c43;
+}
+.bod{
+  border: 1px solid rgba(51, 51, 51, 0.4);
+  transition:  all .5s;
+}
+.bod:hover{
+  border-color:rgba(51, 51, 51, 0.1) ;
+}
+.ro{
+  color: #000;
+  transition: all .5s;
+  font-weight: 600;
+}
+.bod:hover .ro{
+  color: #146c43;
+}
+.bod:hover .btn-c{
+  background: #146c43;
+  border-color: #146c43;
+}
+
+#service{
+  transform: skewY(-3deg);
+  padding: 120px 0;
+
+}
+#service h1{
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+#service h1::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #146c43;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+.digital{
+  background: rgba(52, 58, 64,0.5);
+}
